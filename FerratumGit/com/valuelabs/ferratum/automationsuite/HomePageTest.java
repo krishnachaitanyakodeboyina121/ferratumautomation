@@ -19,7 +19,6 @@ import atu.testng.selenium.reports.CaptureScreen;
 import atu.testng.selenium.reports.CaptureScreen.ScreenshotOf;
 
 
-
 @Listeners({ ATUReportsListener.class, ConfigurationListener.class,
   MethodListener.class })
 public class HomePageTest {
