@@ -23,15 +23,16 @@ import atu.testng.selenium.reports.CaptureScreen.ScreenshotOf;
   MethodListener.class })
 public class HomePageTest {
 
-
+		static
        //Set Property for ATU Reporter Configuration
        {
+			System.out.println(System.getProperty("user.dir"));
          System.setProperty("atu.reporter.config", System.getProperty("user.dir") + "/atu.properties");
 
        }
 
 
-       WebDriver driver;
+       public WebDriver driver;
 
        @BeforeTest
        public void init() {
