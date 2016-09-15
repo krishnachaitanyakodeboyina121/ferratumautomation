@@ -29,7 +29,7 @@
                 <execution>
                     <phase>test</phase>
                     <goals>
-                        <goal>java</goal>
+                        <goal>test</goal>
                     </goals>
                 </execution>
             </executions>
