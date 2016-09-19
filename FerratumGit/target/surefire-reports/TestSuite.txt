@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 81.028 sec <<< FAILURE! - in TestSuite
+beforeTest(com.ferratun.tests.TA23)  Time elapsed: 80.769 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+c6-7e08-4474-a285-3208198ce6fd}":{"d":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","e":true,"v":"43.0.1","st":1461408039482,"mt":1461408039278}},"winreg-app-global":{"wrc@avast.com":{"d":"C:\\Program Files\\AVAST Software\\Avast\\WebRep\\FF","e":false,"v":"12.0.88","st":1472535760060,"mt":1472535743684},"sp@avast.com":{"d":"C:\\Program Files\\AVAST Software\\Avast\\SafePrice\\FF","e":false,"v":"10.3.5.39","st":1472535759951,"mt":1472535741370}}}
+1474223335905	addons.xpi	DEBUG	No changes found
+1474223335912	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1474223335913	addons.xpi	DEBUG	Loading bootstrap scope from C:\Program Files (x86)\Mozilla Firefox\browser\extensions\{82AF8DCA-6DE9-405D-BD5E-43525BDAD38A}.xpi
+1474223336002	addons.xpi	DEBUG	Calling bootstrap method startup on {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} version 8.3.0.9150
+1474223336005	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1474223336005	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1474223336006	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1474223336006	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1474223336006	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1474223336007	addons.manager	DEBUG	Starting provider: GMPProvider
+1474223336014	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1474223336014	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1474223336014	addons.manager	DEBUG	Starting provider: PluginProvider
+1474223336014	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1474223336015	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1474223336015	addons.manager	DEBUG	Completed startup sequence
+1474223336209	addons.xpi-utils	DEBUG	Starting async load of XPI database C:\Users\KODEBO~1\AppData\Local\Temp\anonymous4057292683709498575webdriver-profile\extensions.json
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1474223336510	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1474223336511	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1474223336512	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1474223337098	addons.xpi-utils	DEBUG	Async JSON file read took 0 MS
+1474223337098	addons.xpi-utils	DEBUG	Finished async read of XPI database, parsing...
+1474223337102	addons.xpi-utils	DEBUG	Successfully read XPI database
+1474223337284	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1474223337284	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1474223337285	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-95933d583fb5820dda30.c39446e910f3.js, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+1474223378188	addons.xpi	DEBUG	Calling bootstrap method shutdown on {82AF8DCA-6DE9-405D-BD5E-43525BDAD38A} version 8.3.0.9150
+1474223378358	addons.manager	DEBUG	shutdown
+1474223378358	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1474223378358	addons.xpi	DEBUG	shutdown
+1474223378359	addons.xpi-utils	DEBUG	shutdown
+1474223378359	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1474223378359	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1474223378361	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1474223378361	addons.manager	DEBUG	Calling shutdown blocker for <unnamed-provider>
+1474223378362	addons.manager	DEBUG	Calling shutdown blocker for PreviousExperimentProvider
+1474223378366	addons.xpi	DEBUG	Notifying XPI shutdown observers
+1474223378371	addons.manager	DEBUG	Async provider shutdown done
+
+Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
+System info: host: 'hello', ip: '192.168.1.5', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:118)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:114)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:186)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:182)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:95)
+	at com.ferratun.tests.TA23.beforeTest(TA23.java:15)
+
