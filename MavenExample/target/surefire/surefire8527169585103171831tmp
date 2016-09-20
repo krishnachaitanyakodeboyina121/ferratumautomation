@@ -1,6 +1,5 @@
 #surefire
-#Mon Sep 19 12:24:36 IST 2016
-tc.0=WebDriverTest
+#Tue Sep 20 15:15:36 IST 2016
 testng.configurator=org.apache.maven.surefire.testng.conf.TestNG652Configurator
 testng.test.classpath=C\:\\Users\\kkodeboyina\\Videos\\MavenExample\\target\\test-classes
 classPathUrl.0=C\:\\Users\\kkodeboyina\\Videos\\MavenExample\\target\\test-classes
